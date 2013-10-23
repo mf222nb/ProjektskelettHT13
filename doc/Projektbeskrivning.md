@@ -12,7 +12,9 @@ mf222nb (https://github.com/mf222nb)
 *En kort och koncis beskrivning av projektet. Vad är det ni vill skapa? Varför? Hur fick ni idén?*
 
 Detta projekt som jag ska göra är en Final Fantasy promo - sida, som ska upplysa om vilka bra spel som Final Fantasy är. 
-Idén har jag och en kompis suttit och funderat på en tid att det skulle kunna vara kul att göra.
+Idén har jag och en kompis suttit och funderat på en tid att det skulle kunna vara kul att göra. Det kommer att finnas 
+bilder och trailers eller korta filmsnuttar om de olika spelen. Eftersom att det är många spel i denna spelserie så 
+kommer jag bara att ta med de som jag tycker är bra och som har stuckit ut lite från de andra.
 
 ## Tekniker
 *Vilka tekniker kommer att användas? Kommer ni att använda några ramverk? CSS-preprocessors?*

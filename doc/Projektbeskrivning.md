@@ -4,7 +4,7 @@ mf222nb (https://github.com/mf222nb)
 
 *Lista alla medlemmar ovan. Ni behöver inte ange fullständiga namn utan länk till GitHub-konto räcker.*
 
-[Exekverbar version av projektet](https://c9.io/mf222nb/projektskelettht13/workspace/Index.html)
+[Exekverbar version av projektet](https://c9.io/mf222nb/projektskelettht_13/workspace/index.html)
 
 *Länka till en körbar version av projektet ovan. Exempelvis kan ni skapa en gh-pages-branch på samma sätt som i Uppgift 1.1, laboration 1.*
 

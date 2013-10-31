@@ -2,6 +2,7 @@
 header{
     margin: 0 auto;
     width: 80%;
+    box-shadow: 0 10px 10px -10px #000000;
 }
 nav{
     margin: 0 auto;
@@ -12,20 +13,16 @@ main{
     margin: 0 auto;
     width: 80%;
     background: #46A3FF;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: -1px 19px 26px 8px #000000;
 }
 section{
     float: left;
     width: 50%;
     background: #46A3FF;
+    box-shadow: 0 0 25px #000000;
 }
-footer{
-    margin: 0 auto;
-    width: 80%;
-    background: #46A3FF;
-    border-radius: 0 0 10px 10px;
-    text-indent: 2px;
-}
+
 #breakrow{
     clear: both;
 }
@@ -39,6 +36,7 @@ footer{
 
 #menu a{
     float: left;
+    display: block;
     text-decoration: none;
     color: #FFFFFF;
     padding: 6px 45px 6px 45px;
@@ -57,7 +55,7 @@ footer{
 
 #menu ul li.current{
     background-color: #46A3FF;
-    margin-top: -1px;
+    margin-top: -2px;
 }
 
 #menu ul li.current a{
@@ -77,6 +75,8 @@ footer{
 
 body{
     background-image: url(pics/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #FFFFFF;
 }
 
@@ -112,9 +112,7 @@ main{
 section{
     max-width: 100%;
     margin: 0 auto;
-}
-footer{
-    max-width: 100%;
+    float: none;
 }
 #menu ul{
     float: none;
@@ -147,9 +145,7 @@ main{
 section{
     max-width: 100%;
     margin: 0 auto;
-}
-footer{
-    max-width: 100%;
+    float: none;
 }
 #menu ul{
     float: none;
@@ -182,9 +178,7 @@ main{
 section{
     max-width: 100%;
     margin: 0 auto;
-}
-footer{
-    max-width: 100%;
+    float: none;
 }
 #menu ul{
     float: none;

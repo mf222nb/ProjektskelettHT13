@@ -20,9 +20,9 @@
         </header>
         <nav id="menu">
             <ul>
-                <li class="current"><a href="om.html">Om</a></li>
+                <li><a href="om.html">Om</a></li>
                 <li><a href="../index.html">Start</a></li>
-                <li><a href="kontakt.html">Kontakt</a></li>
+                <li class="current"><a href="kontakt.html">Kontakt</a></li>
                 <li><a href="ff7.html">Final Fantasy 7</a></li>
                 <li><a href="ff10.html">Final Fantasy 10</a></li>
                 <li><a href="ff13.html">Final Fantasy 13</a></li>
@@ -31,15 +31,29 @@
         </nav>
         <div id="breakrow"></div> 
         <main>
-            <article>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in dui mauris. Fusce id auctor justo. Ut pulvinar 
-            purus eu tristique sagittis. Vivamus consectetur mollis ligula vel fermentum. Cras erat metus, posuere sed augue non, 
-            condimentum vestibulum metus. Mauris ornare quam tellus, sit amet fringilla sapien elementum at. Nam vitae posuere tortor. 
-            Donec justo tellus, accumsan congue sagittis aliquet, consequat at tortor. Donec venenatis nunc eget magna semper, vel 
-            eleifend felis hendrerit. Duis nec neque volutpat, iaculis velit vel, malesuada ante. Mauris ornare lorem ut sodales 
-            porttitor. Quisque ultrices justo vel lectus sagittis varius. Class aptent taciti sociosqu ad litora torquent per conubia 
-            nostra, per inceptos himenaeos. Morbi tellus lorem, posuere ac justo id, sodales dapibus orci.</p>
-            </article>
+         <form id="form" name="form" method="post" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php">
+        <fieldset>
+        <legend>Fråga</legend>
+            <label for="arende">Fråga</label>
+            <br>
+            <select name="Ärende" id="arende">
+                <option>Välj fråga</option>
+                <option value="Fråga"> Kontakt </option>
+            </select>
+            <p>
+                <label for="rubrik">Rubrik</label>
+                <br>
+                <input type="text" name="Rubrik" id="rubrik" class="text_input">
+            </p>
+            <p>
+                <label for="fraga">Fråga</label>
+                <br>
+                <textarea name="Fråga" id="fraga"></textarea>
+            </p>
+        </fieldset>
+            
+            <input type="submit" name="Skicka" id="Skicka" value="Skicka fråga" class="submit_input">
+        </form>
         </main>
     </body>
 </html>
